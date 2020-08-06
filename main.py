@@ -24,5 +24,6 @@ if __name__ == '__main__':
     data = np.random.randint(3, 15, size=(10, 2))
     df = pd.DataFrame(data, columns=['randomnumbers', 'yrand'])
     print(df)
+    print(df.mean())
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
