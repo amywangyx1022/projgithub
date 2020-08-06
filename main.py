@@ -20,7 +20,7 @@ def display_ages():
 if __name__ == '__main__':
     print_hi('PyCharm')
     display_ages()
-
+    print_hi('let try this')
     data = np.random.randint(3, 15, size=(10, 2))
     df = pd.DataFrame(data, columns=['randomnumbers', 'yrand'])
     print(df)
